@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: #e6c3c3;
+    width: 20vw;
+    font-family: cursive;
+    cursor: pointer;
+    height: 48vw;
+    transition: 0.3sec ease-in;
+}
+.main{
+    /* background-color: burlywood; */
+    width: 110vw;
+    background-color: indianred;
+    color: aliceblue;
+    
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 17px;
+}
+.sidebar nav li{
+    font-size: 30px;
+    list-style: none;
+    padding: 33px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.infocontainer{
+    /* background-color: khaki; */
+    width: 61vw;
+    height: 71vh;
+    margin: 92px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    margin: 87px 76px;
+    font-size: 22px;
+    font-family: cursive;
+}
+.btn{
+    background-color: darkseagreen;
+    font-size: medium;
+}
+.btn{
+    background-color: darkseagreen;
+    font-size: medium;
+}
+.devpic img{
+    height: 71vh;
+}
+.About-urself{
+    font-size: smaller;
+    margin: 8px 0px;
+}
+.contactform{
+    font-family: monospace;
+}
+.contactform h2{
+    font-size: 33px;
+    font-family: inherit;
+    /* margin-right: 32px; */
+    margin: 33px 44px;
+}
+ .contactform form div{
+    font-size: x-large;
+    /* margin: 94px 59px; */
+    padding: 11px 20px;
+}
+.btn-btn-primary{
+    margin: 0px 19px;
+    background-color: brown;
+    color: white;
+    padding: 4px 13px;
+    border-radius: 33px;
+}
+.mainform{
+    background-color: cadetblue;
+    width: 100vw;
+}
+.introcontainer h3{
+    margin: 14px 17px;
+    font-size: 31px;
+}
+.introcontainer p{
+    font-size: 18px;
+    margin: 6px 15px;
+}
+.introcontainer h4{
+    font-size: 31px;
+    margin: 17px 14px;
+}
+.skillcontainer{
+    margin: 12px;
+    font-size: 26px;
+}
+.skillitem{
+    display: flex;
+    flex-direction: column;
+}
+.skill{
+    width: 256px;
+    height: 7px;
+    background-color: red;
+}
+.skill-t4{
+    width: 173px;
+    height: 7px;
+    background-color: rgb(140, 230, 98);
+}
+.skill-t3{
+    width: 99px;
+    height: 7px;
+    background-color: rgb(227, 241, 24);
+}
+.main2{
+    background-color: slategrey;
+}
+.hamburger{
+    top: 10px;
+    left: 10px;
+    color: black;
+    position: absolute;
+    cursor: pointer;
+}
+.bi-bi-bag-x-fill{
+    margin: 0px 109px;
+}
+.sidebarGo{
+    transform: translate(-434px, 0px);
+    position: absolute;
+}
